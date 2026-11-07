@@ -1,4 +1,6 @@
 <x-head></x-head>
        <x-navbar></x-navbar>
-       <x-header></x-header> 
-       <x-container></x-container>
+       <x-header 
+              fitur="Ini Fitur Blog"
+              deskripsi="Ini deskripsi fitur blog"/>
+       <x-container :posts="$posts"></x-container>

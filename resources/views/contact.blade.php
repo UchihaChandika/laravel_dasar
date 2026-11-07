@@ -1,4 +1,6 @@
 <x-head></x-head>
        <x-navbar></x-navbar>
-       <x-header></x-header> 
+       <x-header 
+              fitur="Ini Fitur Contact"
+              deskripsi="Ini deskripsi fitur contact"/>
        <x-container></x-container>

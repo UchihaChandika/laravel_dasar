@@ -1,14 +1,15 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
+
+
+Route::get('/blog', [PostController::class, 'index']);
 
 Route::get('/', function () {
     return view('home', );
 });
 
-Route::get('/blog', function () {
-    return view('blog');
-});
 
 Route::get('/contact', function () {
     return view('contact');
